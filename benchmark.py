@@ -178,8 +178,10 @@ def main():
         "--prompts",
         nargs="*",
         default=[
-            "Why is the sky blue?",
-            "Write a report on the financials of Apple Inc.",
+            "Take me a photo",
+            "Show me a list of video related to AI",
+            "Send an email to my boss",
+            "Send a message to my friend",
         ],
         help="List of prompts to use for benchmarking. Separate multiple prompts with spaces.",
     )
